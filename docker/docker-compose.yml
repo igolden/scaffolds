@@ -1,0 +1,14 @@
+version: '2'
+
+# Define services
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+
+volumes:
+  #
+
