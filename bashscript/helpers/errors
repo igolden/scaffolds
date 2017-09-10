@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# @param $1 <PATH>    path from error
+function NotFoundError {
+  echo "Sorry not found"
+}
+
+# @param $1 <PATH>    command from error
+function WrongCommandError {
+  echo "$1 Wrong command"
+}
